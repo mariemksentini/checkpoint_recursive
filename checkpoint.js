@@ -1,4 +1,4 @@
-//_________________________________________________Iterative_______________________________________________
+//_________________________________________________Iterative________________________________________________
 //Leap Year Checker: 
 //Create a function that takes a year as input and determines whether it is a leap year or not. 
 //Leap years are divisible by 4, but not by 100 unless they are also divisible by 400.
@@ -9,6 +9,7 @@ function isLeapYear(year) {
         return(`${year} is not a leap year.`);
     }
 }
+
 console.log(isLeapYear(201))
 
 
@@ -29,7 +30,7 @@ function WeatherClothingAdviser(T){
     return T<20 ? 'wear warm.' : T>30 ? 'it s summer.' : 'wear what you want'
 }
 
-//___________________________________________________Recursive_________________________________________________
+//___________________________________________________Recursive__________________________________________________
 
 
 //Fibonacci Sequence: 
